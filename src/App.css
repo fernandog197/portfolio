@@ -49,6 +49,17 @@
     --z-modal: 1000;
 }
 
+/*Dark Mode Color*/
+[data-theme='dark'] {
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 80%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+    --text-color: hsl(var(--hue), var(--sat), 54%);
+    --body-color: hsl(var(--hue), var(--sat), 2%);
+    --container-color: #1a1a1a;
+}
+
 /*===========Responsive Typography===========*/
 @media screen and (max-width: 992px) {
     :root {

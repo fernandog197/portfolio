@@ -81,7 +81,7 @@
     width: 100%;
     height: 100%;
     border: 2px solid rgba(0, 0, 0, 0.3);
-    background: none;
+    background-color: var(--container-color);
     color: var(--text-color);
     outline: none;
     border-radius: 0.75rem;
@@ -95,7 +95,8 @@
     left: 1.25rem;
     font-size: var(--smaller-font-size);
     padding: 0.25rem;
-    background-color: var(--body-color);
+    border-radius: 30%;
+    background-color: var(--container-color);
     z-index: 10;
 }
 

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import Switch from '../Switch/Switch'
+
 import './header.css'
 
 const Header = () => {
@@ -21,7 +23,10 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Smith</a>
+                <div className='nav__logo-container'>
+                    <a href="index.html" className="nav__logo">Smith</a>
+                    <Switch />
+                </div>
 
                 <div className={showMenu?'nav__menu show-menu':'nav__menu'}>
                     <ul className="nav__list grid">
