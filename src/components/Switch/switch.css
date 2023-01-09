@@ -32,8 +32,8 @@
     height: 10px;
     background-color: var(--container-color);
     position: absolute;
-    top: 1px;
-    left: 1px;
+    top: 1.5px;
+    left: 1.5px;
     border-radius: 50%;
     transition: transform 0.2s linear;
   }
