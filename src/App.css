@@ -11,8 +11,10 @@
     --title-color: hsl(var(--hue), var(--sat), 20%);
     --title-color-dark: hsl(var(--hue), var(--sat), 0%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
-    --container-color: #fff;
+    --body-color: #e1eacd;
+    --container-color: #e1eacd;
+    /* --body-color: hsl(var(--hue), var(--sat), 98%); */
+    /* --container-color: #fff; */
 
     /*Font and Typography*/
     --body-font: "Poppins", sans-serif;
@@ -53,11 +55,15 @@
 [data-theme='dark'] {
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 80%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+    --title-color: #e1eacd;
+    --title-color-dark: #e1eacdd3;
+    /* --title-color: hsl(var(--hue), var(--sat), 80%); */
+    /* --title-color-dark: hsl(var(--hue), var(--sat), 100%); */
     --text-color: hsl(var(--hue), var(--sat), 54%);
-    --body-color: hsl(var(--hue), var(--sat), 2%);
-    --container-color: #1a1a1a;
+    /* --body-color: hsl(var(--hue), var(--sat), 2%); */
+    --body-color: #131313;
+    --container-color: #131313;
+    /* --container-color: #1a1a1a; */
 }
 
 /*===========Responsive Typography===========*/
