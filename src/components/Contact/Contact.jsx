@@ -6,54 +6,54 @@ const Contact = () => {
 
     return (
         <section className='contact section' id='contact'>
-            <h2 className="section__title">Get in touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <h2 className="section__title">Estemos en contacto!</h2>
+            <span className="section__subtitle">Contacta conmigo por cualquiera de los siguientes medios</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    <h3 className="contact__title"></h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
+                            <span className="contact__card-data">bluewavesalta@gmail.com</span>
 
-                            <a href="mailto:examplemail@gmail.com.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="mailto:bluewavesalta@gmail.com" className="contact__button">Escríbeme<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">999-888-777</span>
+                            <span className="contact__card-data">+54 9 387 457-9397</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5493874579397&text=Hola! dejame un mensaje!" target='_blank' className="contact__button">Escríbeme<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
+                            <i className="bx bxl-linkedin contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">user.fb1234</span>
+                            <h3 className="contact__card-title">LinkedIn</h3>
+                            <span className="contact__card-data">Miguel Fernando Garcia</span>
 
-                            <a href="https://m.me/crypticalcoder" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/miguel-fernando-garcia-1b1670186/" target='_blank' className="contact__button">Escríbeme<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__title">Deja tu mensaje</h3>
 
-                    <form action="" className="contact__form">
+                    <form action="https://formspree.io/f/xknaokpk" method="POST" className="contact__form">
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Name</label>
+                            <label className="contact__form-tag">Nombre</label>
                             <input 
                                 type="text" 
                                 name='name' 
                                 className='contact__form-input' 
-                                placeholder='Insert your name'  
+                                placeholder='Tu nombre...'  
                             />
                         </div>
 
@@ -63,23 +63,23 @@ const Contact = () => {
                                 type="email" 
                                 name='email' 
                                 className='contact__form-input' 
-                                placeholder='Insert your email'  
+                                placeholder='Tu email...'  
                             />
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project</label>
+                            <label className="contact__form-tag">Asunto</label>
                             <textarea 
                                 name="project"
                                 cols="30" 
                                 rows="10"
                                 className='contact__form-input'
-                                placeholder='Write your project'
+                                placeholder='Asunto...'
                             ></textarea>
                         </div>
 
                         <button className='button button--flex' >
-                            Send Message
+                            Enviar!
                             <svg
                                 class="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"

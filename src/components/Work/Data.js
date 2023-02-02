@@ -2,39 +2,32 @@ import Work1 from '../../assets/work1.jpg'
 import Work2 from '../../assets/work2.jpg'
 import Work3 from '../../assets/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
-import Work5 from '../../assets/work5.jpg'
 
 export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "Web design",
-      category: "web",
+      title: "Task Manager",
+      category: "backend",
     },
     {
       id: 2,
       image: Work2,
-      title: "App movil",
-      category: "app",
+      title: "JWT Login Jobs App",
+      category: "backend",
     },
     {
       id: 3,
       image: Work3,
-      title: "Brand design",
-      category: "design",
+      title: "News Web",
+      category: "frontend",
     },
     {
       id: 4,
       image: Work4,
-      title: "App movil",
-      category: "app",
-    },
-    {
-      id: 5,
-      image: Work5,
-      title: "Web design",
-      category: "web",
-    },
+      title: "Personal Web",
+      category: "frontend",
+    }
   ];
   
   export const projectsNav = [
@@ -42,12 +35,9 @@ export const projectsData = [
         name: 'all'
     },
     {
-        name: 'web'
+        name: 'frontend'
     },
     {
-        name: 'app'
-    },
-    {
-        name: 'design'
+        name: 'backend'
     }
   ]

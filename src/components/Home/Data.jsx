@@ -5,10 +5,10 @@ const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">
-                John Smith
+                Miguel Garcia
                 <svg
-                  width="36"
-                  height="36"
+                  width="30"
+                  height="30"
                   viewBox="0 0 48 48"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,11 +56,11 @@ const Data = () => {
                   ></path>
                 </svg>
             </h1>
-            <h3 className="home__sutitle">Visual Designer</h3>
-            <p className="home__description">I'm creative designer based in New York, and I'm very passionate and dedicated to my work.</p>
+            <h3 className="home__sutitle">Desarrollador Web</h3>
+            <p className="home__description">Soy un desarrolador web residente en Argentina, muy apasionado y dedicado a mi trabajo.</p>
 
             <a href="#contact" className="button button--flex">
-                Say Hello
+                Dejame un mensaje
                 <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

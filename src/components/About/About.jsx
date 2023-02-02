@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AboutImg from '../../assets/about.jpg'
+import AboutImg from '../../assets/home-image.jpg'
 import CV from '../../assets/John-Cv.pdf'
 
 import Info from './Info'
@@ -11,8 +11,8 @@ const About = () => {
 
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+            <h2 className="section__title">Acerca de mi</h2>
+            <span className="section__subtitle">Mi presentación</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="about-img" className="about__img" />
@@ -21,10 +21,10 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+                        Mi nombre es Miguel Fernando Garcia, soy desarrollador full stack y apasionado el mundo IT. Amo aprender tecnologías nuevas y aplicarlas en mis proyectos.
                     </p>
 
-                    <a download='' href={CV} className="button button--flex">DownLoad CV
+                    <a download='' href={CV} className="button button--flex">Descargar CV
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
