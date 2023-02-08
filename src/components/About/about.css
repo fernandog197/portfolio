@@ -30,6 +30,16 @@
     margin-bottom: var(--mb-0-5);
 }
 
+.about__link {
+    display: flex;
+    margin-left: 4rem;
+    color: var(--title-color);
+}
+
+.about__link:hover {
+    text-decoration: underline;
+}
+
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
@@ -66,6 +76,12 @@
 
     .about__info {
         justify-content: center;
+    }
+
+    .about__link {
+        display: flex;
+        justify-content: center;
+        margin-right: 4rem;
     }
 
     .about__description {

@@ -19,7 +19,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#testimonials" className="footer__link">Repositorio</a>
+                        <a href="https://github.com/fernandog197/portfolio" target='_blank' className="footer__link">Repositorio</a>
                     </li>
                 </ul>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import AboutImg from '../../assets/home-image.jpg'
-import CV from '../../assets/John-Cv.pdf'
+import CV from '../../assets/miguelgarcia-cv.pdf'
 
 import Info from './Info'
 
@@ -21,7 +21,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Mi nombre es Miguel Fernando Garcia, soy desarrollador full stack y apasionado el mundo IT. Amo aprender tecnologías nuevas y aplicarlas en mis proyectos.
+                        Mi nombre es Miguel Fernando Garcia, soy desarrollador web y apasionado el mundo IT. Amo aprender tecnologías nuevas y aplicarlas en mis proyectos.
                     </p>
 
                     <a download='' href={CV} className="button button--flex">Descargar CV
@@ -51,6 +51,8 @@ const About = () => {
                             ></path>
                         </svg>
                     </a>
+
+                    <a href="https://drive.google.com/file/d/1GH7ynrwAAdVj6b-gwI-jA_XXVKLeTTsB/view?usp=share_link" target='_blank' className='about__link'><p>Ver online</p></a>
                 </div>
             </div>
         </section>
