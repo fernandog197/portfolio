@@ -39,13 +39,14 @@ const Works = () => {
 
             <div className="work__container container grid">
                 {
-                    projects?.map(({ id, image, title, category }) => (
+                    projects?.map(({ id, image, title, category, url }) => (
                         <WorksItems 
                             id={id}
                             key={id}
                             image={image}
                             title={title}
                             category={category}
+                            url={url}
                         />
                     ))
                 }
