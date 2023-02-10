@@ -52,7 +52,7 @@ const About = () => {
                         </svg>
                     </a>
 
-                    <a href="https://drive.google.com/file/d/1GH7ynrwAAdVj6b-gwI-jA_XXVKLeTTsB/view?usp=share_link" target='_blank' className='about__link'><p>Ver online</p></a>
+                    <a href="https://drive.google.com/file/d/1E2d41sylCF_TlhXqwnOfFSbvCUA8071w/view?usp=share_link" target='_blank' className='about__link'><p>Ver online</p></a>
                 </div>
             </div>
         </section>
