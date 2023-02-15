@@ -2,6 +2,7 @@ import Work1 from '../../assets/work2.jpg'
 import Work2 from '../../assets/work1.jpg'
 import Work3 from '../../assets/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
+import Work5 from '../../assets/work5.jpg'
 
 export const projectsData = [
     {
@@ -31,6 +32,13 @@ export const projectsData = [
       title: "Personal Portfolio Web",
       category: "frontend",
       url: 'https://github.com/fernandog197/portfolio'
+    },
+    {
+      id: 5,
+      image: Work5,
+      title: "Rest Country Api - Dark Mode/Responsive",
+      category: "frontend",
+      url: 'https://rest-country-app-roan.vercel.app/'
     }
   ];
   
